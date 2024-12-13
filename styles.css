@@ -1,0 +1,72 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para as seções de notícias e editais */
+.news, .editais {
+    padding: 20px;
+}
+
+.news-cards, .editais-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-card, .edital-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os cards */
+.news-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+.logo-pequeno {
+    width: 200px;
+    height: 200px;
+  }
+  .link-clicado {
+    color: blue;
+    text-decoration: none;
+  }
