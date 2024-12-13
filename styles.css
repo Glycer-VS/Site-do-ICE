@@ -3,15 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #fff;
 }
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #fff;
+    background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    
+}
+
+.logo-p {
+    height: 200px;
+    width: 200px;
 }
 
 nav ul {
@@ -27,33 +31,55 @@ nav a {
     color: #333;
 }
 
-/* Estilos para as seções de notícias e editais */
-.news, .editais {
+/* Estilos para as seções de notícias */
+.titulo {
     padding: 20px;
-}
-
-.news-cards, .editais-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.news-card, .edital-card {
-    border: 1px solid #ccc;
+.card-containers {
     padding: 20px;
-    width: 300px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Estilos para os cards */
-.news-card img {
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img {
     max-width: 100%;
     height: auto;
 }
 
-.news-card p {
-    font-size: 14px;
+.card-content {
+    padding: 16px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p {
     color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
 }
 
 /* Estilos para o rodapé */
@@ -62,11 +88,3 @@ footer {
     padding: 10px;
     background-color: #ddd;
 }
-.logo-pequeno {
-    width: 200px;
-    height: 200px;
-  }
-  .link-clicado {
-    color: blue;
-    text-decoration: none;
-  }
